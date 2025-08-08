@@ -12,12 +12,15 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "devDependencies": {
+    "@ai-sdk/openai": "^2.0.0",
+    "@ai-sdk/svelte": "^3.0.0",
     "@lucide/svelte": "^0.536.0",
     "@sveltejs/adapter-auto": "^6.0.0",
     "@sveltejs/kit": "^2.20.7",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "@tailwindcss/vite": "^4.1.4",
     "@tanstack/svelte-query-devtools": "^5.74.6",
+    "ai": "^5.0.0",
     "clsx": "^2.1.1",
     "svelte": "^5.28.2",
     "svelte-check": "^4.1.6",
@@ -31,7 +34,7 @@
   "dependencies": {
     "@tanstack/svelte-form": "^1.7.0",
     "@tanstack/svelte-query": "^5.74.4",
-    "zod": "^4.0.2",
+    "zod": "^4.0.14",
     "@orpc/tanstack-query": "^1.5.0",
     "@orpc/client": "^1.5.0",
     "@orpc/server": "^1.5.0",
